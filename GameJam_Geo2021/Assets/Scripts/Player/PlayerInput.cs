@@ -12,6 +12,8 @@ public class PlayerInput : MonoBehaviour
 
     Vector3 DragDirection = Vector3.zero;
 
+    PlayerMove moveComponent;
+
     public Vector3 GetDragDir()
     {
         return DragDirection * -1f;
@@ -20,11 +22,19 @@ public class PlayerInput : MonoBehaviour
     {
         return dragMagnitude2D;
     }
-
-
+    private void Start()
+    {
+        moveComponent = GetComponent<PlayerMove>();
+    }
     private void Update()
     {
         ReadDragInput();
+
+        if (moveComponent.addedForce)
+        {
+            DragDirection = Vector3.zero;
+            moveComponent.addedForce = false;
+        }
     }
     void ReadDragInput()
     {
@@ -66,7 +76,7 @@ public class PlayerInput : MonoBehaviour
             DragDirection.x = dragDir2D.x;
             DragDirection.z = dragDir2D.y;
 
-            Debug.Log(DragDirection + "3D Direction");
+
         }
     }
 }

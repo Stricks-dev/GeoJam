@@ -6,13 +6,18 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerMove : MonoBehaviour
 {
+
     PlayerInput input;
+
     Vector3 dirToAddForce;
     Rigidbody rb;
-    public Transform dirTest;
 
     GroundCheck check;
     public float force = 100f;
+    [Space]
+    public float timeToReset = 3f;
+
+    [HideInInspector] public bool addedForce;
     private void Start()
     {
         input = GetComponent<PlayerInput>();
@@ -23,24 +28,41 @@ public class PlayerMove : MonoBehaviour
     {
         dirToAddForce = input.GetDragDir();
     }
+    float timeCount = 0f;
     private void FixedUpdate()
     {
         if (check.IsGrounded)
         {
-            rb.drag = 1.5f;
-        }
-        else
-        {
-            rb.drag = 0.5f;
-        }
-        rb.AddForce(dirToAddForce * force * Time.deltaTime, ForceMode.Impulse);
-
-        //Add another opposite force to stop player
-        if(rb.velocity.magnitude >= .2f && check.IsGrounded)
-        {
-            Debug.Log("Opposite!");
-            rb.AddForce(-rb.velocity.normalized * force * 10f * Time.deltaTime);
-            Debug.Log("Force Adding");
+            if(dirToAddForce != Vector3.zero)
+            {
+                rb.velocity = dirToAddForce * force * Time.fixedDeltaTime;
+                if(dirToAddForce != Vector3.zero)
+                {
+                    timeCount += Time.fixedDeltaTime;
+                }
+                if (Input.GetMouseButtonDown(0))
+                {
+                    timeCount = 0f;
+                    timeCount += Time.fixedDeltaTime;
+                }
+                if (Input.GetMouseButton(0))
+                {
+                    timeCount = 0f;
+                }
+                if (Input.GetMouseButtonUp(0))
+                {
+                    timeCount = 0f;
+                    timeCount += Time.fixedDeltaTime;
+                }
+                if (rb.velocity.magnitude >= .15f)
+                {
+                    if (timeCount >= timeToReset)
+                    {
+                        addedForce = true;
+                        timeCount = 0f;
+                    }
+                }
+            }
         }
     }
 }
