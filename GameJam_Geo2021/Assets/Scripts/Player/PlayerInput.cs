@@ -12,11 +12,9 @@ public class PlayerInput : MonoBehaviour
 
     Vector3 DragDirection = Vector3.zero;
 
-
-    public event Action OnDragSuccess;
     public Vector3 GetDragDir()
     {
-        return DragDirection;
+        return DragDirection * -1f;
     }
     public float GetDragMagnitude()
     {
@@ -35,6 +33,12 @@ public class PlayerInput : MonoBehaviour
         Vector2 clickPos = Vector2.zero;
         Vector2 lastPos = Vector2.zero;
 
+        Vector2 centre = new Vector2
+        {
+            x = Screen.width/2f,
+            y = Screen.height / 2f
+        };
+
         float distance = 0f;
         if (Input.GetMouseButtonDown(0))
         {
@@ -42,24 +46,27 @@ public class PlayerInput : MonoBehaviour
             distance = (mousePos - playerPixelPos).magnitude;
             if(distance <= maxDistance)
             {
+                mousePos -= centre;
                 clickPos = mousePos;
             }
         }
         if (Input.GetMouseButton(0))
         {
             mousePos = Input.mousePosition;
+            mousePos -= centre;
         }
         if (Input.GetMouseButtonUp(0))
         {
             lastPos.x = Input.mousePosition.x;
             lastPos.y = Input.mousePosition.y;
 
+            lastPos -= centre;
             dragDir2D = (lastPos - clickPos).normalized;
 
             DragDirection.x = dragDir2D.x;
             DragDirection.z = dragDir2D.y;
 
-            OnDragSuccess?.Invoke();
+            Debug.Log(DragDirection + "3D Direction");
         }
     }
 }
