@@ -1,13 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    public float maxMagnitude = 10f;
+    public float maxDistance = 10f;
 
-    float dragMagnitude = 0f;
-    Vector3 dragDir = Vector3.zero;
+    float dragMagnitude2D = 0f;
+    Vector2 dragDir2D = Vector2.zero;
+
+    Vector3 DragDirection = Vector3.zero;
+
+
+    public event Action OnDragSuccess;
+    public Vector3 GetDragDir()
+    {
+        return DragDirection;
+    }
+    public float GetDragMagnitude()
+    {
+        return dragMagnitude2D;
+    }
+
 
     private void Update()
     {
@@ -18,34 +33,16 @@ public class PlayerInput : MonoBehaviour
         Vector2 mousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
         Vector2 playerPixelPos = Camera.main.WorldToScreenPoint(transform.position);
         Vector2 clickPos = Vector2.zero;
-
-        Vector3 mouseLastPosWorld = Vector3.zero;
-        Vector3 clickInWorld = Vector3.zero;
-        Vector3 playerWorldPos = transform.position;
-
-        Vector2 firstPos2D = Vector2.zero;
-        Vector2 lastPos2D = Vector2.zero;
+        Vector2 lastPos = Vector2.zero;
 
         float distance = 0f;
         if (Input.GetMouseButtonDown(0))
         {
             //Onlf if the mouse is clicked near to the player
             distance = (mousePos - playerPixelPos).magnitude;
-            if(distance <= maxMagnitude)
+            if(distance <= maxDistance)
             {
                 clickPos = mousePos;
-                Ray ray = Camera.main.ScreenPointToRay(clickPos);
-                RaycastHit castData;
-                bool raycast = Physics.Raycast(ray, out castData);
-                if (raycast)
-                {
-                    if(castData.collider.name == "PlayerGFX" || castData.collider.name == "Board")
-                    {
-                        clickInWorld = castData.point;
-                    }
-                }
-                firstPos2D.x = clickInWorld.x;
-                firstPos2D.y = clickInWorld.z;
             }
         }
         if (Input.GetMouseButton(0))
@@ -54,26 +51,15 @@ public class PlayerInput : MonoBehaviour
         }
         if (Input.GetMouseButtonUp(0))
         {
-            Vector2 lastPos = new Vector2
-            {
-                x = Input.mousePosition.x,
-                y = Input.mousePosition.y
-            };
-            Ray ray = Camera.main.ScreenPointToRay(lastPos);
-            RaycastHit castData;
-            bool raycast = Physics.Raycast(ray, out castData);
-            if (raycast)
-            {
-                if (castData.collider.name == "Board")
-                {
-                    mouseLastPosWorld = castData.point;
-                }
-            }
-            lastPos2D.x = mouseLastPosWorld.x;
-            lastPos2D.y = mouseLastPosWorld.z;
+            lastPos.x = Input.mousePosition.x;
+            lastPos.y = Input.mousePosition.y;
 
-            dragMagnitude = (lastPos2D - firstPos2D).magnitude;
-            dragDir = (lastPos2D - firstPos2D).normalized;
+            dragDir2D = (lastPos - clickPos).normalized;
+
+            DragDirection.x = dragDir2D.x;
+            DragDirection.z = dragDir2D.y;
+
+            OnDragSuccess?.Invoke();
         }
     }
 }
