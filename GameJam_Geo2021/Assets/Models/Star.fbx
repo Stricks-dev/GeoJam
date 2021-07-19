@@ -9,10 +9,10 @@ FBXHeaderExtension:  {
 		Year: 2021
 		Month: 7
 		Day: 19
-		Hour: 14
-		Minute: 44
-		Second: 48
-		Millisecond: 778
+		Hour: 15
+		Minute: 14
+		Second: 8
+		Millisecond: 295
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	OtherFlags:  {
@@ -37,13 +37,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2021"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:44:48.778"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "19/07/2021 12:14:08.295"
 			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Models\Star.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2021"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:44:48.778"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/07/2021 12:14:08.295"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\daniel\Documents\3ds Max 2021"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo1.max"
 		}
@@ -80,7 +80,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2918571226992, "", "Scene" {
+	Document: 2917172172416, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -266,7 +266,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2917165299888, "Geometry::", "Mesh" {
+	Geometry: 2917165302128, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.87843137254902,0.337254901960784,0.337254901960784
 		}
@@ -447,23 +447,24 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2918803340768, "Model::Star", "Mesh" {
+	Model: 2917023826032, "Model::Star", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
-			P: "GeometricTranslation", "Vector3D", "Vector", "",-1.68983173370361,0.0421744883060455,-7.33368110656738
+			P: "GeometricTranslation", "Vector3D", "Vector", "",-4.6099339670036e-06,-0.000117491203127429,-6.24388122558594
+			P: "GeometricRotation", "Vector3D", "Vector", "",-0,-0,19.0000057220459
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,-0,18.0000080489079
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,-0,-0.999997100553357
 			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.0281546808,0.0281546808,0.0254
 			P: "MaxHandle", "int", "Integer", "UH",57
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2918537897680, "Material::Star", "" {
+	Material: 2918512947568, "Material::Star", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -573,7 +574,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2918537895920, "Material::Material #58", "" {
+	Material: 2918512953328, "Material::Material #58", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -683,7 +684,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2917385452384, "Material::Star Slot #3", "" {
+	Material: 2917385478304, "Material::Star Slot #3", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -698,7 +699,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2917385470144, "Material::Star Slot #4", "" {
+	Material: 2917385485504, "Material::Star Slot #4", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -713,7 +714,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2917385460544, "Material::Star Slot #5", "" {
+	Material: 2917385487424, "Material::Star Slot #5", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -728,7 +729,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2917385449984, "Material::Star Slot #6", "" {
+	Material: 2917385479744, "Material::Star Slot #6", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -743,7 +744,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2917385472544, "Material::Star Slot #7", "" {
+	Material: 2917385480224, "Material::Star Slot #7", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -758,7 +759,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2917385475904, "Material::Star Slot #8", "" {
+	Material: 2917385485984, "Material::Star Slot #8", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -773,7 +774,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2917385461984, "Material::Star Slot #9", "" {
+	Material: 2917385490304, "Material::Star Slot #9", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -788,7 +789,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2917385468224, "Material::Star Slot #10", "" {
+	Material: 2917385482624, "Material::Star Slot #10", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -803,7 +804,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Implementation: 2918584427296, "Implementation::Star_Implementation", "" {
+	Implementation: 2918867540752, "Implementation::Star_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -812,7 +813,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	Implementation: 2918540876112, "Implementation::Material #58_Implementation", "" {
+	Implementation: 2918867541648, "Implementation::Material #58_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -821,7 +822,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	BindingTable: 2918794606144, "BindingTable::root 10", "" {
+	BindingTable: 2918865815568, "BindingTable::root 30", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -916,7 +917,7 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	BindingTable: 2918794603264, "BindingTable::root 11", "" {
+	BindingTable: 2918865818448, "BindingTable::root 31", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -1011,13 +1012,13 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	AnimationStack: 2918570427680, "AnimStack::Take 001", "" {
+	AnimationStack: 2918570535216, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2918538195536, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2917391688976, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -1027,55 +1028,55 @@ Objects:  {
 Connections:  {
 	
 	;Model::Star, Model::RootNode
-	C: "OO",2918803340768,0
+	C: "OO",2917023826032,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2918538195536,2918570427680
+	C: "OO",2917391688976,2918570535216
 	
 	;Geometry::, Model::Star
-	C: "OO",2917165299888,2918803340768
+	C: "OO",2917165302128,2917023826032
 	
 	;Material::Star, Model::Star
-	C: "OO",2918537897680,2918803340768
+	C: "OO",2918512947568,2917023826032
 	
 	;Material::Material #58, Model::Star
-	C: "OO",2918537895920,2918803340768
+	C: "OO",2918512953328,2917023826032
 	
 	;Material::Star Slot #3, Model::Star
-	C: "OO",2917385452384,2918803340768
+	C: "OO",2917385478304,2917023826032
 	
 	;Material::Star Slot #4, Model::Star
-	C: "OO",2917385470144,2918803340768
+	C: "OO",2917385485504,2917023826032
 	
 	;Material::Star Slot #5, Model::Star
-	C: "OO",2917385460544,2918803340768
+	C: "OO",2917385487424,2917023826032
 	
 	;Material::Star Slot #6, Model::Star
-	C: "OO",2917385449984,2918803340768
+	C: "OO",2917385479744,2917023826032
 	
 	;Material::Star Slot #7, Model::Star
-	C: "OO",2917385472544,2918803340768
+	C: "OO",2917385480224,2917023826032
 	
 	;Material::Star Slot #8, Model::Star
-	C: "OO",2917385475904,2918803340768
+	C: "OO",2917385485984,2917023826032
 	
 	;Material::Star Slot #9, Model::Star
-	C: "OO",2917385461984,2918803340768
+	C: "OO",2917385490304,2917023826032
 	
 	;Material::Star Slot #10, Model::Star
-	C: "OO",2917385468224,2918803340768
+	C: "OO",2917385482624,2917023826032
 	
 	;Material::Star, Implementation::Star_Implementation
-	C: "OO",2918537897680,2918584427296
+	C: "OO",2918512947568,2918867540752
 	
-	;BindingTable::root 10, Implementation::Star_Implementation
-	C: "OO",2918794606144,2918584427296
+	;BindingTable::root 30, Implementation::Star_Implementation
+	C: "OO",2918865815568,2918867540752
 	
 	;Material::Material #58, Implementation::Material #58_Implementation
-	C: "OO",2918537895920,2918540876112
+	C: "OO",2918512953328,2918867541648
 	
-	;BindingTable::root 11, Implementation::Material #58_Implementation
-	C: "OO",2918794603264,2918540876112
+	;BindingTable::root 31, Implementation::Material #58_Implementation
+	C: "OO",2918865818448,2918867541648
 }
 ;Takes section
 ;----------------------------------------------------

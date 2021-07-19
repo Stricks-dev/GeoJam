@@ -9,10 +9,10 @@ FBXHeaderExtension:  {
 		Year: 2021
 		Month: 7
 		Day: 19
-		Hour: 14
-		Minute: 48
-		Second: 19
-		Millisecond: 776
+		Hour: 15
+		Minute: 32
+		Second: 33
+		Millisecond: 0
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	OtherFlags:  {
@@ -37,13 +37,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2021"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:48:19.776"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "19/07/2021 12:32:32.999"
 			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Models\Board_short.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2021"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:48:19.776"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/07/2021 12:32:32.999"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\daniel\Documents\3ds Max 2021"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo1.max"
 		}
@@ -80,7 +80,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2917172172672, "", "Scene" {
+	Document: 2918506662960, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -266,7 +266,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2917165273008, "Geometry::", "Mesh" {
+	Geometry: 2917165299440, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.776470588235294,0.882352941176471,0.341176470588235
 		}
@@ -342,7 +342,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2917019601552, "Model::Board_short", "Mesh" {
+	Model: 2917022370928, "Model::Board_short", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -357,14 +357,14 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2917943111232, "Material::Boards", "" {
+	Material: 2918506295424, "Material::Boards", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
 		Properties70:  {
 			P: "ShadingModel", "KString", "", "", "unknown"
-			P: "AmbientColor", "ColorRGB", "Color", "",0.5,0.5,0.5
-			P: "DiffuseColor", "ColorRGB", "Color", "",0.5,0.5,0.5
+			P: "AmbientColor", "ColorRGB", "Color", "",0,0.0470588244497776,0.0705882385373116
+			P: "DiffuseColor", "ColorRGB", "Color", "",0,0.0470588244497776,0.0705882385373116
 			P: "SpecularColor", "ColorRGB", "Color", "",1,1,1
 			P: "SpecularFactor", "double", "Number", "",2
 			P: "ShininessExponent", "double", "Number", "",1024
@@ -379,7 +379,7 @@ Objects:  {
 			P: "3dsMax|ORIGINAL_MTL", "KString", "", "", "PHYSICAL_MTL"
 			P: "3dsMax|Parameters|material_mode", "Integer", "", "A",0
 			P: "3dsMax|Parameters|base_weight", "Float", "", "A",1
-			P: "3dsMax|Parameters|base_color", "ColorAndAlpha", "", "A",0.5,0.5,0.5,1
+			P: "3dsMax|Parameters|base_color", "ColorAndAlpha", "", "A",0,0.0470588244497776,0.0705882385373116,1
 			P: "3dsMax|Parameters|reflectivity", "Float", "", "A",1
 			P: "3dsMax|Parameters|roughness", "Float", "", "A",0
 			P: "3dsMax|Parameters|roughness_inv", "Bool", "", "A",0
@@ -467,7 +467,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Implementation: 2918822146352, "Implementation::Boards_Implementation", "" {
+	Implementation: 2918919317024, "Implementation::Boards_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -476,7 +476,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	BindingTable: 2918802105392, "BindingTable::root 22", "" {
+	BindingTable: 2918920434672, "BindingTable::root 49", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -571,13 +571,13 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	AnimationStack: 2918570470944, "AnimStack::Take 001", "" {
+	AnimationStack: 2918921587136, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2917391693056, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2917398459552, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -587,22 +587,22 @@ Objects:  {
 Connections:  {
 	
 	;Model::Board_short, Model::RootNode
-	C: "OO",2917019601552,0
+	C: "OO",2917022370928,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2917391693056,2918570470944
+	C: "OO",2917398459552,2918921587136
 	
 	;Geometry::, Model::Board_short
-	C: "OO",2917165273008,2917019601552
+	C: "OO",2917165299440,2917022370928
 	
 	;Material::Boards, Model::Board_short
-	C: "OO",2917943111232,2917019601552
+	C: "OO",2918506295424,2917022370928
 	
 	;Material::Boards, Implementation::Boards_Implementation
-	C: "OO",2917943111232,2918822146352
+	C: "OO",2918506295424,2918919317024
 	
-	;BindingTable::root 22, Implementation::Boards_Implementation
-	C: "OO",2918802105392,2918822146352
+	;BindingTable::root 49, Implementation::Boards_Implementation
+	C: "OO",2918920434672,2918919317024
 }
 ;Takes section
 ;----------------------------------------------------
