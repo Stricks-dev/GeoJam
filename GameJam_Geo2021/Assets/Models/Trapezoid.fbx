@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2021
 		Month: 7
-		Day: 18
-		Hour: 22
-		Minute: 56
-		Second: 32
-		Millisecond: 281
+		Day: 19
+		Hour: 14
+		Minute: 45
+		Second: 40
+		Millisecond: 560
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	OtherFlags:  {
@@ -31,21 +31,21 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Trapezoid.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Trapezoid.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Trapezoid.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Trapezoid.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2021"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:56:32.281"
-			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Trapezoid.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:45:40.560"
+			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Models\Trapezoid.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2021"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:56:32.281"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:45:40.560"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\daniel\Documents\3ds Max 2021"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo.max"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo1.max"
 		}
 	}
 }
@@ -80,7 +80,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2220857410752, "", "Scene" {
+	Document: 2918572616576, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -266,7 +266,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2219151803296, "Geometry::", "Mesh" {
+	Geometry: 2917165292272, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.23921568627451,0.529411764705882,0.0235294117647059
 		}
@@ -348,7 +348,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2220680475984, "Model::Box014", "Mesh" {
+	Model: 2918800899616, "Model::Trapezoid", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -363,7 +363,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2220862396480, "Material::Trapezoid", "" {
+	Material: 2918575681520, "Material::Trapezoid", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -473,7 +473,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2220862392320, "Material::Material #154", "" {
+	Material: 2918575682320, "Material::Material #154", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -583,7 +583,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2219985380992, "Material::Trapezoid Slot #3", "" {
+	Material: 2917385475904, "Material::Trapezoid Slot #3", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -598,7 +598,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220910064704, "Material::Trapezoid Slot #4", "" {
+	Material: 2917385461024, "Material::Trapezoid Slot #4", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -613,7 +613,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220910064224, "Material::Trapezoid Slot #5", "" {
+	Material: 2917385472544, "Material::Trapezoid Slot #5", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -628,7 +628,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220910063264, "Material::Trapezoid Slot #6", "" {
+	Material: 2917385449024, "Material::Trapezoid Slot #6", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -643,7 +643,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220910065664, "Material::Trapezoid Slot #7", "" {
+	Material: 2917385469664, "Material::Trapezoid Slot #7", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -658,7 +658,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220910062304, "Material::Trapezoid Slot #8", "" {
+	Material: 2917385476384, "Material::Trapezoid Slot #8", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -673,7 +673,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220910062784, "Material::Trapezoid Slot #9", "" {
+	Material: 2917385477824, "Material::Trapezoid Slot #9", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -688,7 +688,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220910063744, "Material::Trapezoid Slot #10", "" {
+	Material: 2917385466304, "Material::Trapezoid Slot #10", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -703,7 +703,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Implementation: 2220811422576, "Implementation::Trapezoid_Implementation", "" {
+	Implementation: 2917167849056, "Implementation::Trapezoid_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -712,7 +712,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	Implementation: 2220811422352, "Implementation::Material #154_Implementation", "" {
+	Implementation: 2918580746192, "Implementation::Material #154_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -721,7 +721,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	BindingTable: 2220907326768, "BindingTable::root 21", "" {
+	BindingTable: 2918795834032, "BindingTable::root 14", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -816,7 +816,7 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	BindingTable: 2220907339728, "BindingTable::root 22", "" {
+	BindingTable: 2918795837488, "BindingTable::root 15", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -911,13 +911,13 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	AnimationStack: 2220728314016, "AnimStack::Take 001", "" {
+	AnimationStack: 2918570451184, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2220903095376, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2918545901520, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -926,56 +926,56 @@ Objects:  {
 
 Connections:  {
 	
-	;Model::Box014, Model::RootNode
-	C: "OO",2220680475984,0
+	;Model::Trapezoid, Model::RootNode
+	C: "OO",2918800899616,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2220903095376,2220728314016
+	C: "OO",2918545901520,2918570451184
 	
-	;Geometry::, Model::Box014
-	C: "OO",2219151803296,2220680475984
+	;Geometry::, Model::Trapezoid
+	C: "OO",2917165292272,2918800899616
 	
-	;Material::Trapezoid, Model::Box014
-	C: "OO",2220862396480,2220680475984
+	;Material::Trapezoid, Model::Trapezoid
+	C: "OO",2918575681520,2918800899616
 	
-	;Material::Material #154, Model::Box014
-	C: "OO",2220862392320,2220680475984
+	;Material::Material #154, Model::Trapezoid
+	C: "OO",2918575682320,2918800899616
 	
-	;Material::Trapezoid Slot #3, Model::Box014
-	C: "OO",2219985380992,2220680475984
+	;Material::Trapezoid Slot #3, Model::Trapezoid
+	C: "OO",2917385475904,2918800899616
 	
-	;Material::Trapezoid Slot #4, Model::Box014
-	C: "OO",2220910064704,2220680475984
+	;Material::Trapezoid Slot #4, Model::Trapezoid
+	C: "OO",2917385461024,2918800899616
 	
-	;Material::Trapezoid Slot #5, Model::Box014
-	C: "OO",2220910064224,2220680475984
+	;Material::Trapezoid Slot #5, Model::Trapezoid
+	C: "OO",2917385472544,2918800899616
 	
-	;Material::Trapezoid Slot #6, Model::Box014
-	C: "OO",2220910063264,2220680475984
+	;Material::Trapezoid Slot #6, Model::Trapezoid
+	C: "OO",2917385449024,2918800899616
 	
-	;Material::Trapezoid Slot #7, Model::Box014
-	C: "OO",2220910065664,2220680475984
+	;Material::Trapezoid Slot #7, Model::Trapezoid
+	C: "OO",2917385469664,2918800899616
 	
-	;Material::Trapezoid Slot #8, Model::Box014
-	C: "OO",2220910062304,2220680475984
+	;Material::Trapezoid Slot #8, Model::Trapezoid
+	C: "OO",2917385476384,2918800899616
 	
-	;Material::Trapezoid Slot #9, Model::Box014
-	C: "OO",2220910062784,2220680475984
+	;Material::Trapezoid Slot #9, Model::Trapezoid
+	C: "OO",2917385477824,2918800899616
 	
-	;Material::Trapezoid Slot #10, Model::Box014
-	C: "OO",2220910063744,2220680475984
+	;Material::Trapezoid Slot #10, Model::Trapezoid
+	C: "OO",2917385466304,2918800899616
 	
 	;Material::Trapezoid, Implementation::Trapezoid_Implementation
-	C: "OO",2220862396480,2220811422576
+	C: "OO",2918575681520,2917167849056
 	
-	;BindingTable::root 21, Implementation::Trapezoid_Implementation
-	C: "OO",2220907326768,2220811422576
+	;BindingTable::root 14, Implementation::Trapezoid_Implementation
+	C: "OO",2918795834032,2917167849056
 	
 	;Material::Material #154, Implementation::Material #154_Implementation
-	C: "OO",2220862392320,2220811422352
+	C: "OO",2918575682320,2918580746192
 	
-	;BindingTable::root 22, Implementation::Material #154_Implementation
-	C: "OO",2220907339728,2220811422352
+	;BindingTable::root 15, Implementation::Material #154_Implementation
+	C: "OO",2918795837488,2918580746192
 }
 ;Takes section
 ;----------------------------------------------------

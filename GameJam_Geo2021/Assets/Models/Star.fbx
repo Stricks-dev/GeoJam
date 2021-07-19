@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2021
 		Month: 7
-		Day: 18
-		Hour: 22
-		Minute: 55
-		Second: 46
-		Millisecond: 513
+		Day: 19
+		Hour: 14
+		Minute: 44
+		Second: 48
+		Millisecond: 778
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	OtherFlags:  {
@@ -31,21 +31,21 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Star.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Star.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Star.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Star.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2021"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:55:46.513"
-			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Star.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:44:48.778"
+			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Models\Star.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2021"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:55:46.513"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:44:48.778"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\daniel\Documents\3ds Max 2021"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo.max"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo1.max"
 		}
 	}
 }
@@ -80,7 +80,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2220807172496, "", "Scene" {
+	Document: 2918571226992, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -266,7 +266,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2219151798816, "Geometry::", "Mesh" {
+	Geometry: 2917165299888, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.87843137254902,0.337254901960784,0.337254901960784
 		}
@@ -447,7 +447,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2220913998592, "Model::NGon010", "Mesh" {
+	Model: 2918803340768, "Model::Star", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -463,7 +463,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2220682842336, "Material::Star", "" {
+	Material: 2918537897680, "Material::Star", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -573,7 +573,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2220682847776, "Material::Material #58", "" {
+	Material: 2918537895920, "Material::Material #58", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -683,7 +683,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2220904562608, "Material::Star Slot #3", "" {
+	Material: 2917385452384, "Material::Star Slot #3", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -698,7 +698,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904570288, "Material::Star Slot #4", "" {
+	Material: 2917385470144, "Material::Star Slot #4", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -713,7 +713,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904571248, "Material::Star Slot #5", "" {
+	Material: 2917385460544, "Material::Star Slot #5", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -728,7 +728,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904575568, "Material::Star Slot #6", "" {
+	Material: 2917385449984, "Material::Star Slot #6", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -743,7 +743,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904583728, "Material::Star Slot #7", "" {
+	Material: 2917385472544, "Material::Star Slot #7", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -758,7 +758,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904577968, "Material::Star Slot #8", "" {
+	Material: 2917385475904, "Material::Star Slot #8", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -773,7 +773,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904584208, "Material::Star Slot #9", "" {
+	Material: 2917385461984, "Material::Star Slot #9", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -788,7 +788,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904581808, "Material::Star Slot #10", "" {
+	Material: 2917385468224, "Material::Star Slot #10", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -803,7 +803,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Implementation: 2220614008016, "Implementation::Star_Implementation", "" {
+	Implementation: 2918584427296, "Implementation::Star_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -812,7 +812,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	Implementation: 2220614008240, "Implementation::Material #58_Implementation", "" {
+	Implementation: 2918540876112, "Implementation::Material #58_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -821,7 +821,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	BindingTable: 2220907326768, "BindingTable::root 17", "" {
+	BindingTable: 2918794606144, "BindingTable::root 10", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -916,7 +916,7 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	BindingTable: 2220907339152, "BindingTable::root 18", "" {
+	BindingTable: 2918794603264, "BindingTable::root 11", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -1011,13 +1011,13 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	AnimationStack: 2220901909744, "AnimStack::Take 001", "" {
+	AnimationStack: 2918570427680, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2218823006064, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2918538195536, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -1026,56 +1026,56 @@ Objects:  {
 
 Connections:  {
 	
-	;Model::NGon010, Model::RootNode
-	C: "OO",2220913998592,0
+	;Model::Star, Model::RootNode
+	C: "OO",2918803340768,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2218823006064,2220901909744
+	C: "OO",2918538195536,2918570427680
 	
-	;Geometry::, Model::NGon010
-	C: "OO",2219151798816,2220913998592
+	;Geometry::, Model::Star
+	C: "OO",2917165299888,2918803340768
 	
-	;Material::Star, Model::NGon010
-	C: "OO",2220682842336,2220913998592
+	;Material::Star, Model::Star
+	C: "OO",2918537897680,2918803340768
 	
-	;Material::Material #58, Model::NGon010
-	C: "OO",2220682847776,2220913998592
+	;Material::Material #58, Model::Star
+	C: "OO",2918537895920,2918803340768
 	
-	;Material::Star Slot #3, Model::NGon010
-	C: "OO",2220904562608,2220913998592
+	;Material::Star Slot #3, Model::Star
+	C: "OO",2917385452384,2918803340768
 	
-	;Material::Star Slot #4, Model::NGon010
-	C: "OO",2220904570288,2220913998592
+	;Material::Star Slot #4, Model::Star
+	C: "OO",2917385470144,2918803340768
 	
-	;Material::Star Slot #5, Model::NGon010
-	C: "OO",2220904571248,2220913998592
+	;Material::Star Slot #5, Model::Star
+	C: "OO",2917385460544,2918803340768
 	
-	;Material::Star Slot #6, Model::NGon010
-	C: "OO",2220904575568,2220913998592
+	;Material::Star Slot #6, Model::Star
+	C: "OO",2917385449984,2918803340768
 	
-	;Material::Star Slot #7, Model::NGon010
-	C: "OO",2220904583728,2220913998592
+	;Material::Star Slot #7, Model::Star
+	C: "OO",2917385472544,2918803340768
 	
-	;Material::Star Slot #8, Model::NGon010
-	C: "OO",2220904577968,2220913998592
+	;Material::Star Slot #8, Model::Star
+	C: "OO",2917385475904,2918803340768
 	
-	;Material::Star Slot #9, Model::NGon010
-	C: "OO",2220904584208,2220913998592
+	;Material::Star Slot #9, Model::Star
+	C: "OO",2917385461984,2918803340768
 	
-	;Material::Star Slot #10, Model::NGon010
-	C: "OO",2220904581808,2220913998592
+	;Material::Star Slot #10, Model::Star
+	C: "OO",2917385468224,2918803340768
 	
 	;Material::Star, Implementation::Star_Implementation
-	C: "OO",2220682842336,2220614008016
+	C: "OO",2918537897680,2918584427296
 	
-	;BindingTable::root 17, Implementation::Star_Implementation
-	C: "OO",2220907326768,2220614008016
+	;BindingTable::root 10, Implementation::Star_Implementation
+	C: "OO",2918794606144,2918584427296
 	
 	;Material::Material #58, Implementation::Material #58_Implementation
-	C: "OO",2220682847776,2220614008240
+	C: "OO",2918537895920,2918540876112
 	
-	;BindingTable::root 18, Implementation::Material #58_Implementation
-	C: "OO",2220907339152,2220614008240
+	;BindingTable::root 11, Implementation::Material #58_Implementation
+	C: "OO",2918794603264,2918540876112
 }
 ;Takes section
 ;----------------------------------------------------
