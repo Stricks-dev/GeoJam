@@ -75,8 +75,6 @@ public class PlayerInput : MonoBehaviour
 
             DragDirection.x = dragDir2D.x;
             DragDirection.z = dragDir2D.y;
-
-
         }
     }
 }
