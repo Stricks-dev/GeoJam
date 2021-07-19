@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2021
 		Month: 7
-		Day: 18
-		Hour: 22
-		Minute: 55
-		Second: 32
-		Millisecond: 74
+		Day: 19
+		Hour: 14
+		Minute: 44
+		Second: 22
+		Millisecond: 681
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	OtherFlags:  {
@@ -31,21 +31,21 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Rhombus.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Rhombus.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Rhombus.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Rhombus.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2021"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:55:32.074"
-			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Rhombus.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:44:22.681"
+			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Models\Rhombus.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2021"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:55:32.074"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:44:22.681"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\daniel\Documents\3ds Max 2021"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo.max"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo1.max"
 		}
 	}
 }
@@ -80,7 +80,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2220727899056, "", "Scene" {
+	Document: 2917380946384, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -266,7 +266,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2219151806880, "Geometry::", "Mesh" {
+	Geometry: 2917165273008, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.23921568627451,0.529411764705882,0.0235294117647059
 		}
@@ -403,15 +403,17 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2220906180304, "Model::Box013", "Mesh" {
+	Model: 2917398328784, "Model::Rhombus", "Mesh" {
 		Version: 232
 		Properties70:  {
+			P: "ScalingOffset", "Vector3D", "Vector", "",0,-1.65436122510606e-24,0
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
 			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
-			P: "GeometricTranslation", "Vector3D", "Vector", "",0.393700867891312,0.393700778484344,-7.28348398208618
+			P: "GeometricTranslation", "Vector3D", "Vector", "",0.39370059967041,0.39370059967041,-7.28348445892334
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",3.02791595458984e-09,1.21116638183594e-08,-1.36256217956543e-08
 			P: "Lcl Rotation", "Lcl Rotation", "", "A",0,-0,45.0000059724438
 			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.0410799026,0.0410799026,0.0254
 			P: "MaxHandle", "int", "Integer", "UH",54
@@ -419,7 +421,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2220797330448, "Material::Rhombus", "" {
+	Material: 2918549102736, "Material::Rhombus", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -529,7 +531,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2220797335088, "Material::Material #56", "" {
+	Material: 2918549103856, "Material::Material #56", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -639,7 +641,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2220803381488, "Material::Rhombus Slot #3", "" {
+	Material: 2917385447104, "Material::Rhombus Slot #3", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -654,7 +656,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220803380048, "Material::Rhombus Slot #4", "" {
+	Material: 2917385416864, "Material::Rhombus Slot #4", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -669,7 +671,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220803375248, "Material::Rhombus Slot #5", "" {
+	Material: 2917385424064, "Material::Rhombus Slot #5", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -684,7 +686,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220803381968, "Material::Rhombus Slot #6", "" {
+	Material: 2917385425024, "Material::Rhombus Slot #6", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -699,7 +701,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220803379568, "Material::Rhombus Slot #7", "" {
+	Material: 2917385475424, "Material::Rhombus Slot #7", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -714,7 +716,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220803376688, "Material::Rhombus Slot #8", "" {
+	Material: 2917385457184, "Material::Rhombus Slot #8", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -729,7 +731,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220803375728, "Material::Rhombus Slot #9", "" {
+	Material: 2917385458144, "Material::Rhombus Slot #9", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -744,7 +746,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220803376208, "Material::Rhombus Slot #10", "" {
+	Material: 2917385476384, "Material::Rhombus Slot #10", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -759,7 +761,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Implementation: 2220625553344, "Implementation::Rhombus_Implementation", "" {
+	Implementation: 2917379612800, "Implementation::Rhombus_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -768,7 +770,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	Implementation: 2220625554464, "Implementation::Material #56_Implementation", "" {
+	Implementation: 2917379610560, "Implementation::Material #56_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -777,7 +779,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	BindingTable: 2220907326768, "BindingTable::root 15", "" {
+	BindingTable: 2918797520256, "BindingTable::root 8", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -872,7 +874,7 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	BindingTable: 2220907328784, "BindingTable::root 16", "" {
+	BindingTable: 2918797522272, "BindingTable::root 9", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -967,13 +969,13 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	AnimationStack: 2220730722432, "AnimStack::Take 001", "" {
+	AnimationStack: 2918570395024, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2220803341888, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2917393098112, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -982,56 +984,56 @@ Objects:  {
 
 Connections:  {
 	
-	;Model::Box013, Model::RootNode
-	C: "OO",2220906180304,0
+	;Model::Rhombus, Model::RootNode
+	C: "OO",2917398328784,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2220803341888,2220730722432
+	C: "OO",2917393098112,2918570395024
 	
-	;Geometry::, Model::Box013
-	C: "OO",2219151806880,2220906180304
+	;Geometry::, Model::Rhombus
+	C: "OO",2917165273008,2917398328784
 	
-	;Material::Rhombus, Model::Box013
-	C: "OO",2220797330448,2220906180304
+	;Material::Rhombus, Model::Rhombus
+	C: "OO",2918549102736,2917398328784
 	
-	;Material::Material #56, Model::Box013
-	C: "OO",2220797335088,2220906180304
+	;Material::Material #56, Model::Rhombus
+	C: "OO",2918549103856,2917398328784
 	
-	;Material::Rhombus Slot #3, Model::Box013
-	C: "OO",2220803381488,2220906180304
+	;Material::Rhombus Slot #3, Model::Rhombus
+	C: "OO",2917385447104,2917398328784
 	
-	;Material::Rhombus Slot #4, Model::Box013
-	C: "OO",2220803380048,2220906180304
+	;Material::Rhombus Slot #4, Model::Rhombus
+	C: "OO",2917385416864,2917398328784
 	
-	;Material::Rhombus Slot #5, Model::Box013
-	C: "OO",2220803375248,2220906180304
+	;Material::Rhombus Slot #5, Model::Rhombus
+	C: "OO",2917385424064,2917398328784
 	
-	;Material::Rhombus Slot #6, Model::Box013
-	C: "OO",2220803381968,2220906180304
+	;Material::Rhombus Slot #6, Model::Rhombus
+	C: "OO",2917385425024,2917398328784
 	
-	;Material::Rhombus Slot #7, Model::Box013
-	C: "OO",2220803379568,2220906180304
+	;Material::Rhombus Slot #7, Model::Rhombus
+	C: "OO",2917385475424,2917398328784
 	
-	;Material::Rhombus Slot #8, Model::Box013
-	C: "OO",2220803376688,2220906180304
+	;Material::Rhombus Slot #8, Model::Rhombus
+	C: "OO",2917385457184,2917398328784
 	
-	;Material::Rhombus Slot #9, Model::Box013
-	C: "OO",2220803375728,2220906180304
+	;Material::Rhombus Slot #9, Model::Rhombus
+	C: "OO",2917385458144,2917398328784
 	
-	;Material::Rhombus Slot #10, Model::Box013
-	C: "OO",2220803376208,2220906180304
+	;Material::Rhombus Slot #10, Model::Rhombus
+	C: "OO",2917385476384,2917398328784
 	
 	;Material::Rhombus, Implementation::Rhombus_Implementation
-	C: "OO",2220797330448,2220625553344
+	C: "OO",2918549102736,2917379612800
 	
-	;BindingTable::root 15, Implementation::Rhombus_Implementation
-	C: "OO",2220907326768,2220625553344
+	;BindingTable::root 8, Implementation::Rhombus_Implementation
+	C: "OO",2918797520256,2917379612800
 	
 	;Material::Material #56, Implementation::Material #56_Implementation
-	C: "OO",2220797335088,2220625554464
+	C: "OO",2918549103856,2917379610560
 	
-	;BindingTable::root 16, Implementation::Material #56_Implementation
-	C: "OO",2220907328784,2220625554464
+	;BindingTable::root 9, Implementation::Material #56_Implementation
+	C: "OO",2918797522272,2917379610560
 }
 ;Takes section
 ;----------------------------------------------------

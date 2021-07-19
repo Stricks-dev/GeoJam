@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2021
 		Month: 7
-		Day: 18
-		Hour: 22
-		Minute: 55
-		Second: 10
-		Millisecond: 45
+		Day: 19
+		Hour: 14
+		Minute: 43
+		Second: 26
+		Millisecond: 594
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	OtherFlags:  {
@@ -31,21 +31,21 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Circle.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Circle.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Circle.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Circle.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2021"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:55:10.045"
-			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Circle.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:43:26.594"
+			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Models\Circle.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2021"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:55:10.045"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:43:26.594"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\daniel\Documents\3ds Max 2021"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo.max"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo1.max"
 		}
 	}
 }
@@ -80,7 +80,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2218951308416, "", "Scene" {
+	Document: 2918506663984, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -266,7 +266,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2219151812704, "Geometry::", "Mesh" {
+	Geometry: 2917165298544, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.345098039215686,0.105882352941176
 		}
@@ -401,7 +401,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2220907096640, "Model::Cylinder007", "Mesh" {
+	Model: 2917023841376, "Model::Circle", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -416,7 +416,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2218898640096, "Material::Circle", "" {
+	Material: 2917397853632, "Material::Circle", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -526,7 +526,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2218898641376, "Material::Material #33", "" {
+	Material: 2917397854112, "Material::Material #33", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -636,7 +636,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2220856785712, "Material::Circle Slot #3", "" {
+	Material: 2917385446144, "Material::Circle Slot #3", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -651,7 +651,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220856777552, "Material::Circle Slot #4", "" {
+	Material: 2917385447104, "Material::Circle Slot #4", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -666,7 +666,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220856778992, "Material::Circle Slot #5", "" {
+	Material: 2917385416864, "Material::Circle Slot #5", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -681,7 +681,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220856775632, "Material::Circle Slot #6", "" {
+	Material: 2917385431264, "Material::Circle Slot #6", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -696,7 +696,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220856776112, "Material::Circle Slot #7", "" {
+	Material: 2917385422624, "Material::Circle Slot #7", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -711,7 +711,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220856779952, "Material::Circle Slot #8", "" {
+	Material: 2917385423104, "Material::Circle Slot #8", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -726,7 +726,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220856780432, "Material::Circle Slot #9", "" {
+	Material: 2917385424064, "Material::Circle Slot #9", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -741,7 +741,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220856784752, "Material::Circle Slot #10", "" {
+	Material: 2917385425024, "Material::Circle Slot #10", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -756,7 +756,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Implementation: 2220730397120, "Implementation::Circle_Implementation", "" {
+	Implementation: 2918572642944, "Implementation::Circle_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -765,7 +765,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	Implementation: 2220730397792, "Implementation::Material #33_Implementation", "" {
+	Implementation: 2918572646080, "Implementation::Material #33_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -774,7 +774,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	BindingTable: 2220907326768, "BindingTable::root 13", "" {
+	BindingTable: 2918579603952, "BindingTable::root 6", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -869,7 +869,7 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	BindingTable: 2220907332816, "BindingTable::root 14", "" {
+	BindingTable: 2918579604240, "BindingTable::root 7", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -964,13 +964,13 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	AnimationStack: 2220630078992, "AnimStack::Take 001", "" {
+	AnimationStack: 2918570392528, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2218902316048, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2918536959552, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -979,56 +979,56 @@ Objects:  {
 
 Connections:  {
 	
-	;Model::Cylinder007, Model::RootNode
-	C: "OO",2220907096640,0
+	;Model::Circle, Model::RootNode
+	C: "OO",2917023841376,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2218902316048,2220630078992
+	C: "OO",2918536959552,2918570392528
 	
-	;Geometry::, Model::Cylinder007
-	C: "OO",2219151812704,2220907096640
+	;Geometry::, Model::Circle
+	C: "OO",2917165298544,2917023841376
 	
-	;Material::Circle, Model::Cylinder007
-	C: "OO",2218898640096,2220907096640
+	;Material::Circle, Model::Circle
+	C: "OO",2917397853632,2917023841376
 	
-	;Material::Material #33, Model::Cylinder007
-	C: "OO",2218898641376,2220907096640
+	;Material::Material #33, Model::Circle
+	C: "OO",2917397854112,2917023841376
 	
-	;Material::Circle Slot #3, Model::Cylinder007
-	C: "OO",2220856785712,2220907096640
+	;Material::Circle Slot #3, Model::Circle
+	C: "OO",2917385446144,2917023841376
 	
-	;Material::Circle Slot #4, Model::Cylinder007
-	C: "OO",2220856777552,2220907096640
+	;Material::Circle Slot #4, Model::Circle
+	C: "OO",2917385447104,2917023841376
 	
-	;Material::Circle Slot #5, Model::Cylinder007
-	C: "OO",2220856778992,2220907096640
+	;Material::Circle Slot #5, Model::Circle
+	C: "OO",2917385416864,2917023841376
 	
-	;Material::Circle Slot #6, Model::Cylinder007
-	C: "OO",2220856775632,2220907096640
+	;Material::Circle Slot #6, Model::Circle
+	C: "OO",2917385431264,2917023841376
 	
-	;Material::Circle Slot #7, Model::Cylinder007
-	C: "OO",2220856776112,2220907096640
+	;Material::Circle Slot #7, Model::Circle
+	C: "OO",2917385422624,2917023841376
 	
-	;Material::Circle Slot #8, Model::Cylinder007
-	C: "OO",2220856779952,2220907096640
+	;Material::Circle Slot #8, Model::Circle
+	C: "OO",2917385423104,2917023841376
 	
-	;Material::Circle Slot #9, Model::Cylinder007
-	C: "OO",2220856780432,2220907096640
+	;Material::Circle Slot #9, Model::Circle
+	C: "OO",2917385424064,2917023841376
 	
-	;Material::Circle Slot #10, Model::Cylinder007
-	C: "OO",2220856784752,2220907096640
+	;Material::Circle Slot #10, Model::Circle
+	C: "OO",2917385425024,2917023841376
 	
 	;Material::Circle, Implementation::Circle_Implementation
-	C: "OO",2218898640096,2220730397120
+	C: "OO",2917397853632,2918572642944
 	
-	;BindingTable::root 13, Implementation::Circle_Implementation
-	C: "OO",2220907326768,2220730397120
+	;BindingTable::root 6, Implementation::Circle_Implementation
+	C: "OO",2918579603952,2918572642944
 	
 	;Material::Material #33, Implementation::Material #33_Implementation
-	C: "OO",2218898641376,2220730397792
+	C: "OO",2917397854112,2918572646080
 	
-	;BindingTable::root 14, Implementation::Material #33_Implementation
-	C: "OO",2220907332816,2220730397792
+	;BindingTable::root 7, Implementation::Material #33_Implementation
+	C: "OO",2918579604240,2918572646080
 }
 ;Takes section
 ;----------------------------------------------------

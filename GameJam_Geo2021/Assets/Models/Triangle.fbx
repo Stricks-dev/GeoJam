@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2021
 		Month: 7
-		Day: 18
-		Hour: 22
-		Minute: 56
-		Second: 8
-		Millisecond: 30
+		Day: 19
+		Hour: 14
+		Minute: 45
+		Second: 17
+		Millisecond: 412
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.0.1"
 	OtherFlags:  {
@@ -31,21 +31,21 @@ FBXHeaderExtension:  {
 			Comment: ""
 		}
 		Properties70:  {
-			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Triangle.fbx"
-			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Triangle.fbx"
+			P: "DocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Triangle.fbx"
+			P: "SrcDocumentUrl", "KString", "Url", "", "G:\Важное\Модели\GeoJam\Models\Triangle.fbx"
 			P: "Original", "Compound", "", ""
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2021"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:56:08.030"
-			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Triangle.fbx"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:45:17.412"
+			P: "Original|FileName", "KString", "", "", "G:\Важное\Модели\GeoJam\Models\Triangle.fbx"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2021"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "18/07/2021 19:56:08.030"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "19/07/2021 11:45:17.412"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "C:\Users\daniel\Documents\3ds Max 2021"
-			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo.max"
+			P: "Original|ApplicationNativeFile", "KString", "", "", "G:\Важное\Модели\GeoJam\Geo1.max"
 		}
 	}
 }
@@ -80,7 +80,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2220807186320, "", "Scene" {
+	Document: 2918571222640, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -266,7 +266,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2219151815392, "Geometry::", "Mesh" {
+	Geometry: 2917165302576, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.552941176470588,0.0274509803921569,0.227450980392157
 		}
@@ -380,7 +380,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2220900118224, "Model::NGon011", "Mesh" {
+	Model: 2918800987088, "Model::Triangle", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -396,7 +396,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 2220682858816, "Material::Triangle", "" {
+	Material: 2918537917040, "Material::Triangle", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -506,7 +506,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2220682853376, "Material::Material #142", "" {
+	Material: 2918537914320, "Material::Material #142", "" {
 		Version: 102
 		ShadingModel: "unknown"
 		MultiLayer: 0
@@ -616,7 +616,7 @@ Objects:  {
 			P: "3dsMax|Parameters|displacement_map_amt", "Float", "", "A",1
 		}
 	}
-	Material: 2220904559728, "Material::Triangle Slot #3", "" {
+	Material: 2917385463424, "Material::Triangle Slot #3", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -631,7 +631,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904573168, "Material::Triangle Slot #4", "" {
+	Material: 2917385452384, "Material::Triangle Slot #4", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -646,7 +646,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904575568, "Material::Triangle Slot #5", "" {
+	Material: 2917385473024, "Material::Triangle Slot #5", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -661,7 +661,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904564528, "Material::Triangle Slot #6", "" {
+	Material: 2917385470624, "Material::Triangle Slot #6", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -676,7 +676,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904565968, "Material::Triangle Slot #7", "" {
+	Material: 2917385449024, "Material::Triangle Slot #7", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -691,7 +691,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904576528, "Material::Triangle Slot #8", "" {
+	Material: 2917385466304, "Material::Triangle Slot #8", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -706,7 +706,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904576048, "Material::Triangle Slot #9", "" {
+	Material: 2917385452864, "Material::Triangle Slot #9", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -721,7 +721,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2220904577008, "Material::Triangle Slot #10", "" {
+	Material: 2917385457184, "Material::Triangle Slot #10", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -736,7 +736,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Implementation: 2220806068576, "Implementation::Triangle_Implementation", "" {
+	Implementation: 2918540875664, "Implementation::Triangle_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -745,7 +745,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	Implementation: 2220806068352, "Implementation::Material #142_Implementation", "" {
+	Implementation: 2918540875440, "Implementation::Material #142_Implementation", "" {
 		Version: 100
 		Properties70:  {
 			P: "ShaderLanguage", "KString", "", "", "AiOSL"
@@ -754,7 +754,7 @@ Objects:  {
 			P: "RootBindingName", "KString", "", "", "root"
 		}
 	}
-	BindingTable: 2220907326768, "BindingTable::root 19", "" {
+	BindingTable: 2918794606144, "BindingTable::root 12", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -849,7 +849,7 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	BindingTable: 2220907340592, "BindingTable::root 20", "" {
+	BindingTable: 2918794601248, "BindingTable::root 13", "" {
 		Version: 100
 		Properties70:  {
 			P: "TargetName", "KString", "", "", "root"
@@ -944,13 +944,13 @@ Objects:  {
 		Entry: "3dsMax|Parameters|cutout_map_on", "FbxPropertyEntry", "cutout_map_on", "FbxSemanticEntry"
 		Entry: "3dsMax|Parameters|displacement_map_amt", "FbxPropertyEntry", "displacement_map_amt", "FbxSemanticEntry"
 	}
-	AnimationStack: 2220901922640, "AnimStack::Take 001", "" {
+	AnimationStack: 2918570436624, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2218823002800, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2918538190368, "AnimLayer::BaseLayer", "" {
 	}
 }
 
@@ -959,56 +959,56 @@ Objects:  {
 
 Connections:  {
 	
-	;Model::NGon011, Model::RootNode
-	C: "OO",2220900118224,0
+	;Model::Triangle, Model::RootNode
+	C: "OO",2918800987088,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2218823002800,2220901922640
+	C: "OO",2918538190368,2918570436624
 	
-	;Geometry::, Model::NGon011
-	C: "OO",2219151815392,2220900118224
+	;Geometry::, Model::Triangle
+	C: "OO",2917165302576,2918800987088
 	
-	;Material::Triangle, Model::NGon011
-	C: "OO",2220682858816,2220900118224
+	;Material::Triangle, Model::Triangle
+	C: "OO",2918537917040,2918800987088
 	
-	;Material::Material #142, Model::NGon011
-	C: "OO",2220682853376,2220900118224
+	;Material::Material #142, Model::Triangle
+	C: "OO",2918537914320,2918800987088
 	
-	;Material::Triangle Slot #3, Model::NGon011
-	C: "OO",2220904559728,2220900118224
+	;Material::Triangle Slot #3, Model::Triangle
+	C: "OO",2917385463424,2918800987088
 	
-	;Material::Triangle Slot #4, Model::NGon011
-	C: "OO",2220904573168,2220900118224
+	;Material::Triangle Slot #4, Model::Triangle
+	C: "OO",2917385452384,2918800987088
 	
-	;Material::Triangle Slot #5, Model::NGon011
-	C: "OO",2220904575568,2220900118224
+	;Material::Triangle Slot #5, Model::Triangle
+	C: "OO",2917385473024,2918800987088
 	
-	;Material::Triangle Slot #6, Model::NGon011
-	C: "OO",2220904564528,2220900118224
+	;Material::Triangle Slot #6, Model::Triangle
+	C: "OO",2917385470624,2918800987088
 	
-	;Material::Triangle Slot #7, Model::NGon011
-	C: "OO",2220904565968,2220900118224
+	;Material::Triangle Slot #7, Model::Triangle
+	C: "OO",2917385449024,2918800987088
 	
-	;Material::Triangle Slot #8, Model::NGon011
-	C: "OO",2220904576528,2220900118224
+	;Material::Triangle Slot #8, Model::Triangle
+	C: "OO",2917385466304,2918800987088
 	
-	;Material::Triangle Slot #9, Model::NGon011
-	C: "OO",2220904576048,2220900118224
+	;Material::Triangle Slot #9, Model::Triangle
+	C: "OO",2917385452864,2918800987088
 	
-	;Material::Triangle Slot #10, Model::NGon011
-	C: "OO",2220904577008,2220900118224
+	;Material::Triangle Slot #10, Model::Triangle
+	C: "OO",2917385457184,2918800987088
 	
 	;Material::Triangle, Implementation::Triangle_Implementation
-	C: "OO",2220682858816,2220806068576
+	C: "OO",2918537917040,2918540875664
 	
-	;BindingTable::root 19, Implementation::Triangle_Implementation
-	C: "OO",2220907326768,2220806068576
+	;BindingTable::root 12, Implementation::Triangle_Implementation
+	C: "OO",2918794606144,2918540875664
 	
 	;Material::Material #142, Implementation::Material #142_Implementation
-	C: "OO",2220682853376,2220806068352
+	C: "OO",2918537914320,2918540875440
 	
-	;BindingTable::root 20, Implementation::Material #142_Implementation
-	C: "OO",2220907340592,2220806068352
+	;BindingTable::root 13, Implementation::Material #142_Implementation
+	C: "OO",2918794601248,2918540875440
 }
 ;Takes section
 ;----------------------------------------------------
