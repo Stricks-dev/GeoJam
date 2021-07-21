@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5362967170b601449ac2a294b13e20f3
+guid: aa0a558488cb47d4a9b7ca76c62c936e
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,23 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Border_short_long Slot #5
-    second: {fileID: 2100000, guid: 445d840ad69e4f34daf36de3f2200b07, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Border_short_long Slot #6
-    second: {fileID: 2100000, guid: 445d840ad69e4f34daf36de3f2200b07, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material #172
-    second: {fileID: 2100000, guid: 445d840ad69e4f34daf36de3f2200b07, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Material #173
-    second: {fileID: 2100000, guid: efa311e8fc844a540acb8ea8383c20af, type: 2}
+      name: Boards
+    second: {fileID: 2100000, guid: 08ec847ac97d9ae4e8204c4ee31c6ff5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

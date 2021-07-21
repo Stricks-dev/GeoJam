@@ -1,80 +1,66 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
 {
-    public float maxDistance = 10f;
+    public float maxDragStartFromPlayer = 15f;
+    [Space]
+    [HideInInspector] public Vector2 DragDirection;
+    [HideInInspector] public float DragMagnitude;
 
-    float dragMagnitude2D = 0f;
-    Vector2 dragDir2D = Vector2.zero;
-
-    Vector3 DragDirection = Vector3.zero;
-
-    PlayerMove moveComponent;
-
-    public Vector3 GetDragDir()
-    {
-        return DragDirection * -1f;
-    }
-    public float GetDragMagnitude()
-    {
-        return dragMagnitude2D;
-    }
+    PlayerMove playerMove;
     private void Start()
     {
-        moveComponent = GetComponent<PlayerMove>();
+        playerMove = GetComponent<PlayerMove>();
     }
     private void Update()
     {
         ReadDragInput();
-
-        if (moveComponent.addedForce)
-        {
-            DragDirection = Vector3.zero;
-            moveComponent.addedForce = false;
-        }
     }
     void ReadDragInput()
     {
-        Vector2 mousePos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-        Vector2 playerPixelPos = Camera.main.WorldToScreenPoint(transform.position);
-        Vector2 clickPos = Vector2.zero;
-        Vector2 lastPos = Vector2.zero;
+        //Final vars
+        Vector2 startPoint = Vector2.zero;
+        Vector2 endPoint = Vector2.zero;
+        Vector2 dragDirection = Vector2.zero;
 
-        Vector2 centre = new Vector2
+        Vector3 playerScreenPos3 = Camera.main.WorldToScreenPoint(transform.position);
+        Vector2 mouseScreenPos = Input.mousePosition;
+        Vector2 playerScreenPos = new Vector3
         {
-            x = Screen.width/2f,
-            y = Screen.height / 2f
+            x = playerScreenPos3.x,
+            y = playerScreenPos3.y
         };
+        Vector2 center = new Vector2
+        {
+            x = Screen.width / 2,
+            y = Screen.height / 2
+        };
+        Vector2 playerScreenCoordPos = playerScreenPos - center;
+        Vector2 mouseScreenCoordPos = mouseScreenPos - center;
 
-        float distance = 0f;
+
         if (Input.GetMouseButtonDown(0))
         {
-            //Onlf if the mouse is clicked near to the player
-            distance = (mousePos - playerPixelPos).magnitude;
-            if(distance <= maxDistance)
+            Vector2 dragStartPoint = playerScreenCoordPos - mouseScreenCoordPos;
+            if(dragStartPoint.magnitude <= maxDragStartFromPlayer)
             {
-                mousePos -= centre;
-                clickPos = mousePos;
+                startPoint = mouseScreenCoordPos;
             }
-        }
-        if (Input.GetMouseButton(0))
-        {
-            mousePos = Input.mousePosition;
-            mousePos -= centre;
         }
         if (Input.GetMouseButtonUp(0))
         {
-            lastPos.x = Input.mousePosition.x;
-            lastPos.y = Input.mousePosition.y;
+            Vector2 dragEndPoint = playerScreenCoordPos - mouseScreenCoordPos;
+            endPoint = mouseScreenCoordPos;
 
-            lastPos -= centre;
-            dragDir2D = (lastPos - clickPos).normalized;
+            dragDirection = endPoint - startPoint;
 
-            DragDirection.x = dragDir2D.x;
-            DragDirection.z = dragDir2D.y;
+            //Setting tt to global variables
+            DragDirection = dragDirection.normalized * -1f;
+            DragMagnitude = dragDirection.magnitude /10f;
+            playerMove.GetInput(DragDirection, DragMagnitude);
+            DragDirection = Vector2.zero;
         }
     }
 }

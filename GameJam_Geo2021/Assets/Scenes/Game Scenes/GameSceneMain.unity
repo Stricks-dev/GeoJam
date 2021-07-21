@@ -2979,7 +2979,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfca8ba0a8f2d374e83066fa0ec51fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   maxDistance: 10
+=======
+  maxDragStartFromPlayer: 20
+  DragDirection: {x: 0, y: 0}
+  DragMagnitude: 0
+>>>>>>> Stashed changes
 --- !u!114 &435623475203388186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2992,6 +2998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a356d79f33d34b34589ab35d34b03385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   info:
     id: 0
     playerName: 
@@ -3000,6 +3007,8 @@ MonoBehaviour:
   force: 100
   timeToReset: 3
   addedForce: 0
+=======
+>>>>>>> Stashed changes
 --- !u!64 &435623475203388188
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3510,7 +3519,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfca8ba0a8f2d374e83066fa0ec51fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   maxDistance: 10
+=======
+  maxDragStartFromPlayer: 20
+  DragDirection: {x: 0, y: 0}
+  DragMagnitude: 0
+>>>>>>> Stashed changes
 --- !u!114 &3082330033729782456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3523,6 +3538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a356d79f33d34b34589ab35d34b03385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   info:
     id: 0
     playerName: 
@@ -3531,6 +3547,8 @@ MonoBehaviour:
   force: 100
   timeToReset: 3
   addedForce: 0
+=======
+>>>>>>> Stashed changes
 --- !u!64 &3082330033729782474
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4176,6 +4194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a356d79f33d34b34589ab35d34b03385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   info:
     id: 0
     playerName: 
@@ -4184,6 +4203,8 @@ MonoBehaviour:
   force: 100
   timeToReset: 3
   addedForce: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1 &6310939033021739462
 GameObject:
   m_ObjectHideFlags: 0
@@ -4298,7 +4319,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfca8ba0a8f2d374e83066fa0ec51fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   maxDistance: 10
+=======
+  maxDragStartFromPlayer: 20
+  DragDirection: {x: 0, y: 0}
+  DragMagnitude: 0
+>>>>>>> Stashed changes
 --- !u!114 &6392459627801998840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4311,6 +4338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a356d79f33d34b34589ab35d34b03385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   info:
     id: 0
     playerName: 
@@ -4319,6 +4347,8 @@ MonoBehaviour:
   force: 100
   timeToReset: 3
   addedForce: 0
+=======
+>>>>>>> Stashed changes
 --- !u!33 &6402583422247507607
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4467,7 +4497,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfca8ba0a8f2d374e83066fa0ec51fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   maxDistance: 10
+=======
+  maxDragStartFromPlayer: 15
+  DragDirection: {x: 0, y: 0}
+  DragMagnitude: 0
+>>>>>>> Stashed changes
 --- !u!54 &6544322708646406039
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4761,7 +4797,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfca8ba0a8f2d374e83066fa0ec51fa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   maxDistance: 10
+=======
+  maxDragStartFromPlayer: 20
+  DragDirection: {x: 0, y: 0}
+  DragMagnitude: 0
+>>>>>>> Stashed changes
 --- !u!114 &7223352186357498762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4774,6 +4816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a356d79f33d34b34589ab35d34b03385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   info:
     id: 0
     playerName: 
@@ -4782,6 +4825,8 @@ MonoBehaviour:
   force: 100
   timeToReset: 3
   addedForce: 0
+=======
+>>>>>>> Stashed changes
 --- !u!64 &7223352186357498764
 MeshCollider:
   m_ObjectHideFlags: 0

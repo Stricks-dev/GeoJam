@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,83 +5,59 @@ using UnityEngine;
 [RequireComponent(typeof(PlayerInput))]
 public class PlayerMove : MonoBehaviour
 {
+    Vector2 dragInputDir = Vector3.zero;
+    float dragMag = 0f;
+    Vector3 moveDir;
+    public float moveSpeed = 10f;
 
-    public PlayerInfo info;
-    [Space]
-    PlayerInput input;
-
-    Vector3 dirToAddForce;
+    public float timeToStop = 3f;
     Rigidbody rb;
-
-    GroundCheck check;
-    public event Action OnPlayerStop;
-    [HideInInspector] public Vector3 lastRecordPos = Vector3.zero;
-
-    [Space]
-    public float force = 100f;
-    [Space]
-    public float timeToReset = 3f;
-
-    [HideInInspector] public bool addedForce;
+    GroundCheck groundCheck;
     private void Start()
     {
-        input = GetComponent<PlayerInput>();
         rb = GetComponent<Rigidbody>();
-        check = GetComponentInChildren<GroundCheck>();
+        groundCheck = GetComponentInChildren<GroundCheck>();
     }
-    private void Update()
+    public void GetInput(Vector2 dragDirection, float magnitude)
     {
-        dirToAddForce = input.GetDragDir();
+        dragInputDir = dragDirection;
+        dragMag = magnitude;
+        moveDir.x = dragInputDir.x;
+        moveDir.z = dragInputDir.y;
     }
-    float timeCount = 0f;
     private void FixedUpdate()
     {
-        if (check.IsGrounded)
+        if (groundCheck.IsGrounded)
         {
-            if(dirToAddForce != Vector3.zero)
-            {
-                rb.velocity = dirToAddForce * force * Time.fixedDeltaTime;
-                if(dirToAddForce != Vector3.zero)
-                {
-                    timeCount += Time.fixedDeltaTime;
-                }
-                if (Input.GetMouseButtonDown(0))
-                {
-                    timeCount = 0f;
-                    timeCount += Time.fixedDeltaTime;
-                }
-                if (Input.GetMouseButton(0))
-                {
-                    timeCount = 0f;
-                }
-                if (Input.GetMouseButtonUp(0))
-                {
-                    timeCount = 0f;
-                    timeCount += Time.fixedDeltaTime;
-                }
-                if (rb.velocity.magnitude >= .15f)
-                {
-                    if (timeCount >= timeToReset)
-                    {
-                        addedForce = true;
-                        lastRecordPos = transform.position;
-                        OnPlayerStop?.Invoke();
-                        timeCount = 0f;
-                    }
-                }
-            }
+            rb.velocity = moveDir * moveSpeed * Time.deltaTime;
+            Count(moveDir, timeToStop);
         }
     }
-}
-[System.Serializable]
-public class PlayerInfo
-{
-    public int id;
-    public string playerName;
-    public PlayerType playerType;
-
-    public enum PlayerType
+    void Count(Vector3 moveDirection, float timeToStop)
     {
-        Circle,Rhombus,Star,Triangle,Trapezoid
+        float timeCount = 0f;
+        if(rb.velocity.magnitude >= .15f)
+        {
+            timeCount += Time.fixedDeltaTime;
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            timeCount = 0f;
+            timeCount += Time.fixedDeltaTime;
+        }
+        if (Input.GetMouseButton(0))
+        {
+            timeCount = 0f;
+        }
+        if (Input.GetMouseButtonUp(0))
+        {
+            timeCount = 0f;
+            timeCount += Time.fixedDeltaTime;
+        }
+        if(timeCount >= timeToStop)
+        {
+
+        }
     }
+    
 }
